@@ -1,4 +1,14 @@
 <!-- TOC -->
+
+# How to clone "final" branch . 
+git clone http://github.com/tpillai/spring-ai.git
+cd spring-ai
+git remote add upstream https://github.com/dilipsundarraj1/spring-ai.git
+git fetch upstream
+git checkout -b final upstream/final
+git push origin final
+
+
 * [Java Installation](#java-installation)
     * [Java Installation using Installer](#java-installation-using-installer)
     * [Java Installation using SDK man](#java-installation-using-sdk-man)
